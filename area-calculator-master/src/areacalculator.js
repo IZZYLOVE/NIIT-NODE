@@ -23,7 +23,8 @@ const calculateArea = (choice,side,length,breadth,radius) =>{
             area = -1
             break
         default:
-            return(action)
+            area = 0
+            break
     }
     // write logic here
     // note that you check the values passed are not null before performing any operation on them
